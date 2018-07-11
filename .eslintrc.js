@@ -128,7 +128,7 @@ module.exports = {
 		'no-ex-assign': 1,
 		'no-extend-native': 1,
 		'no-extra-bind': 1,
-		'no-extra-boolean-cast': 1,
+		'no-extra-boolean-cast': 'off',
 		'no-extra-parens': [ 1, 'functions' ],
 		'no-fallthrough': 1,
 		'no-floating-decimal': 1,
