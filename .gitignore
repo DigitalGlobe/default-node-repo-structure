@@ -1,3 +1,6 @@
+# Parcel cache
+.cache
+
 # awsmobilejs
 appsync-info.json
 aws-info.json
