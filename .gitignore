@@ -1,5 +1,13 @@
+# node-pre-gyp
+*.csv
+*.dat
+*.gz
+results
+lib/binding
+*.tgz
+
 # Parcel cache
-.cache
+/.cache/
 
 # awsmobilejs
 appsync-info.json
