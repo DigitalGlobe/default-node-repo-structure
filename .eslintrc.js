@@ -29,7 +29,8 @@ module.exports = {
 		L: true,
 		Materialize: true,
 		navigator: true,
-		alert: true
+		alert: true,
+		import: true
 	},
 	rules: {
 		indent: [
