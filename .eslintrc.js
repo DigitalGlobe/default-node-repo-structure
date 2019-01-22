@@ -30,7 +30,9 @@ module.exports = {
 		Materialize: true,
 		navigator: true,
 		alert: true,
-		import: true
+		import: true,
+		require: true,
+		fetch: true
 	},
 	rules: {
 		indent: [
