@@ -8,7 +8,6 @@ lib/binding
 
 # Parcel cache
 .cache
-.cache/*
 
 # awsmobilejs
 appsync-info.json
@@ -32,9 +31,16 @@ clover.xml
 .tags1
 *.ss*
 .config
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw*
 
 # Node logs
 npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 logs
 *.log
 pids
@@ -441,9 +447,10 @@ _pkginfo.txt
 
 # Visual Studio cache files
 # files ending in .cache can be ignored
-*.[Cc]ache
+# cache create an issue with parcel ignore
+# *.[Cc]ache
 # but keep track of directories ending in .cache
-!*.[Cc]ache/
+# !*.[Cc]ache/
 
 # Others
 ClientBin/
@@ -510,4 +517,3 @@ paket-files/
 
 # JetBrains Rider
 *.sln.iml
-*.iml
