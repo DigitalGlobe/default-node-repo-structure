@@ -32,6 +32,8 @@ module.exports = {
 		alert: true,
 		import: true,
 		require: true,
+		module: true,
+		exports: true,
 		fetch: true
 	},
 	rules: {
